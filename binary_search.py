@@ -18,7 +18,7 @@ def binary_search(arr, lower, upper, x):
 
 # Test Case , Expected result = 1
 arr = [1, 2, 3, 4, 5, 6]
-result = binary_search(arr, 0, len(arr) - 1, 1)
+result = binary_search(arr, 0, len(arr) - 1, 2)
 
 if result != -1:
     print("Element is present at index {}".format(result))
